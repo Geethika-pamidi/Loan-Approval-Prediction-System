@@ -10,6 +10,6 @@ Built a complete ML pipeline including data preprocessing, model training, testi
 
 Implemented multiple classification models (without mentioning names in resume) to compare prediction performance.
 
-Evaluated models using Accuracy, Precision, Recall, F1 Score, Confusion Matrix, and ROC-AUC, selecting the best model for deployment.
+Evaluated models using Accuracy, Precision, Recall, F1 Score, Confusion Matrix, and selecting the best model for deployment.
 
 Identified key factors that influence loan approval decisions such as Credit History, Applicant Income, Loan Amount, and Dependents.
