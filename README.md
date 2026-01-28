@@ -1,4 +1,4 @@
-# Loan-Approval-Prediction-System
+# Credit Risk Assessment and Loan Approval Analysis
 Developed an end-to-end credit risk prediction system using customer financial history and approval records. Built a scalable workflow covering data cleaning, feature engineering, exploratory analysis, and predictive modeling to support data-driven lending decision
 
 Key Responsibilities & Contributions
