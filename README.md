@@ -1,15 +1,33 @@
-# Credit Risk Assessment and Loan Approval Analysis
-Developed an end-to-end credit risk prediction system using customer financial history and approval records. Built a scalable workflow covering data cleaning, feature engineering, exploratory analysis, and predictive modeling to support data-driven lending decision
+Neural Network-Enhanced Loan Approval & Credit Risk System
 
-Key Responsibilities & Contributions
-Performed data cleaning, handling missing values, outlier treatment, and feature encoding on a real-world loan dataset.
+A complete comparison of 5 classical machine learning models against a PyTorch Neural Network for automated loan approval prediction.
+Problem Statement:
+"Manual loan underwriting is slow and prone to human error. This project automates the credit risk assessment process by analyzing 50,000+ data points to provide instant, high-precision loan approval decisions, reducing financial risk for lenders and improving the user experience for applicants."
+Dataset--
+- 50,000 loan records
+- 20 features: credit score, annual income, debt-to-income ratio, 
+  loan amount, employment status, etc.
+- Target: loan_status (1 = Approved, 0 = Rejected)
+"I developed the end-to-end pipeline: from data cleaning and feature engineering (handling 20+ variables) to benchmarking 5 classical ML models (SVM, KNN, etc.). I then designed and trained a custom PyTorch Neural Network to optimize predictive accuracy beyond traditional methods."
 
-Conducted Exploratory Data Analysis (EDA) to understand customer demographics, income patterns, loan terms, and credit history.
+Model | Accuracy |
+Naive Bayes | ~80% |
+Decision Tree | ~84% |
+Logistic Regression | ~85% |
+KNN | ~86% |
+SVM | 88.7% |
+Neural Network (PyTorch) | 90%|
 
-Built a complete ML pipeline including data preprocessing, model training, testing, and performance evaluation.
+Tools & Technologies
+- Language:** Python
+- *Deep Learning:** PyTorch
+- *Classical ML:** Scikit-Learn
+- *Data Processing:** Pandas, NumPy
+- *Visualization:** Matplotlib, Seaborn
+- *Environment:** Jupyter Notebook
 
-Implemented multiple classification models (without mentioning names in resume) to compare prediction performance.
-
-Evaluated models using Accuracy, Precision, Recall, F1 Score, Confusion Matrix, and selecting the best model for deployment.
-
-Identified key factors that influence loan approval decisions such as Credit History, Applicant Income, Loan Amount, and Dependents.
+Conclusions
+1. Neural Networks outperform classical ML on large financial datasets
+2. SVM is strongest classical baseline — fast and accurate
+3. Dropout successfully prevented overfitting
+4. Automated loan approval reduces bias and scales to millions of applications
