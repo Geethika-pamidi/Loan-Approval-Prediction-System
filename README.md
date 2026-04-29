@@ -19,12 +19,12 @@ SVM | 88.7% |
 Neural Network (PyTorch) | 90%|
 
 Tools & Technologies
-- Language:** Python
-- *Deep Learning:** PyTorch
-- *Classical ML:** Scikit-Learn
-- *Data Processing:** Pandas, NumPy
-- *Visualization:** Matplotlib, Seaborn
-- *Environment:** Jupyter Notebook
+- *Language:* Python
+- *Deep Learning:* PyTorch
+- *Classical ML:* Scikit-Learn
+- *Data Processing:* Pandas, NumPy
+- *Visualization:* Matplotlib, Seaborn
+- *Environment:* Jupyter Notebook
 
 Conclusions
 1. Neural Networks outperform classical ML on large financial datasets
